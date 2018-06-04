@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -fPIC -O3   CMakeFiles/initial_matrix_test.dir/test_image.cpp.o  -o ../../bin/initial_matrix_test -rdynamic ../../lib/libimage.so ../../lib/libgtest.a ../../lib/libgtest_main.a ../../lib/libio_tools.so ../../lib/libgtest.a -lpthread -Wl,-rpath,/home/totorowithme/桌面/courses/Modern_Cpp/homework_2/igg_image/lib 

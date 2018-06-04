@@ -10,3 +10,14 @@ include(CTest) # Include testing cmake package.
 set(TEST_BINARY ${PROJECT_NAME}_test)
 
 ##################### Create your tests below this line ########################
+include_directories(${PROJECT_SOURCE_DIR}/src/igg_image)
+add_executable(${TEST_BINARY} test_image.cpp)
+
+target_link_libraries(${TEST_BINARY}
+						image
+						gtest
+						gtest_main)
+						
+add_test(
+	NAME ${TEST_BINARY}
+	COMMAND ${EXECUTABLE_OUTPUT_PATH}/${TEST_BINARY})

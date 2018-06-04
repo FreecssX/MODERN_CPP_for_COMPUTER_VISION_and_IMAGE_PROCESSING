@@ -1,0 +1,40 @@
+Start testing: Jun 03 19:57 CST
+----------------------------------------------------------
+1/1 Testing: initial_matrix_test
+1/1 Test: initial_matrix_test
+Command: "/home/totorowithme/桌面/courses/Modern_Cpp/homework_2/igg_image/bin/initial_matrix_test"
+Directory: /home/totorowithme/桌面/courses/Modern_Cpp/homework_2/igg_image/build/tests
+"initial_matrix_test" start time: Jun 03 19:57 CST
+Output:
+----------------------------------------------------------
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from ImageTest
+[ RUN      ] ImageTest.initialize
+[       OK ] ImageTest.initialize (0 ms)
+[ RUN      ] ImageTest.read_write
+[       OK ] ImageTest.read_write (32 ms)
+[ RUN      ] ImageTest.histogram
+0.25 
+0.25 
+0.25 
+0.25 
+[       OK ] ImageTest.histogram (0 ms)
+[ RUN      ] ImageTest.downscale
+[       OK ] ImageTest.downscale (20 ms)
+[ RUN      ] ImageTest.upscale
+[       OK ] ImageTest.upscale (78 ms)
+[----------] 5 tests from ImageTest (130 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (130 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"initial_matrix_test" end time: Jun 03 19:57 CST
+"initial_matrix_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 03 19:57 CST

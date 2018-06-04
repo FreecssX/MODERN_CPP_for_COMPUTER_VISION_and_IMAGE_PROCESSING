@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/igg_image/image.h
+vector
+-
+io_tools.h
+../src/igg_image/io_tools.h
+
+../src/igg_image/io_tools.h
+fstream
+-
+string
+-
+vector
+-
+
+/home/totorowithme/桌面/courses/Modern_Cpp/homework_2/igg_image/tests/test_image.cpp
+image.h
+/home/totorowithme/桌面/courses/Modern_Cpp/homework_2/igg_image/tests/image.h
+gtest/gtest.h
+-
+iostream
+-
+

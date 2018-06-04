@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/totorowithme/桌面/courses/Modern_Cpp/homework_2/igg_image/lib/libgtest.a  CMakeFiles/gtest.dir/src/gtest-all.cc.o
+/usr/bin/ranlib /home/totorowithme/桌面/courses/Modern_Cpp/homework_2/igg_image/lib/libgtest.a

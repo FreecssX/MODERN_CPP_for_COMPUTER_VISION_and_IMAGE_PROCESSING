@@ -28,6 +28,5 @@ ImageData ReadFromPgm(const std::string& file_name);
 
 /// Write image data into an ascii pgm file. Return true if successful.
 bool WriteToPgm(const ImageData& image_data, const std::string& file_name);
-
 }  // namespace io_tools
 }  // namespace igg

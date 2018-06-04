@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -Wall -Wextra -fPIC -O3  -shared -Wl,-soname,libimage.so -o ../../../lib/libimage.so CMakeFiles/image.dir/image.cpp.o ../../../lib/libio_tools.so -Wl,-rpath,/home/totorowithme/桌面/courses/Modern_Cpp/homework_2/igg_image/lib 
